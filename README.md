@@ -1,3 +1,7 @@
+## Available Scripts
+
+[Live Preview React Todo App](https://ehsanshakil.github.io/React-Todo-App/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
