@@ -1,0 +1,42 @@
+.heading {
+  text-align: center;
+}
+.form {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 300px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+.input:focus {
+  outline: none;
+}
+.input:hover {
+  outline: lightgreen;
+  border: 2px solid lightgrey;
+}
+.todoAppButton {
+  margin-left: 20px;
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.todoAppButton:focus {
+  outline: none;
+}
+.todoAppButton:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
