@@ -5,9 +5,9 @@ const TodoList = props => {
   return (
     <div>
       <ol className="todoList">
-        {props.inputText.map((item, index) => (
+        {props.todos.map((item, index) => (
           <li key={index}>
-            {item.text}
+            {item}
             <button
               className="todoListButton"
               onClick={() => props.deleteHandler(item)}
